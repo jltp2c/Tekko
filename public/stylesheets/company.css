@@ -85,3 +85,9 @@ select {
 li span {
     font-weight: bold;
 }
+
+#eachReview {
+    border: 3px solid rgba(128, 128, 128, 0.377);
+    border-radius: 10px;
+    margin-bottom: 10px;
+}

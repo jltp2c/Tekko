@@ -11,8 +11,6 @@ html {
     scroll-behavior: smooth;
 }
 
-
-
 /* FORM AND H1,H4 STYLES */
 
 .profileContainer {
@@ -152,8 +150,8 @@ p {
 
     display: flex;
     flex-wrap: wrap;
-
-
+    justify-content: center;
+    align-items: center;
     gap: 2rem;
 }
 

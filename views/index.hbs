@@ -1,21 +1,16 @@
-<div class='title'><h1 class='animate__animated animate__fadeInDown'>Your
-    workplace insights, made easy.</h1></div>
-
-<div class='images'>
-  <img
-    src='/images/review1.png'
-    alt='review1'
-    id='review1'
-    class='animate__animated animate__fadeInRight'
-  />
-  <img
-    src='/images/review2.png'
-    alt='review1'
-    id='review2'
-    class='animate__animated animate__fadeInRight'
-  />
-</div>
-
-<div class='btn'>
-  <a href='/auth/signup' id='signBtn'>sign up now!</a>
+<div class="bloc">
+  <div class="Childbloc">
+    <div class='title'>
+      <h1 class='animate__animated animate__fadeInDown'>Your
+        workplace insights, made easy.</h1>
+    </div>
+  
+  </div>
+  {{#if currentUser}}
+  <h1 class='animate__animated animate__fadeInDown'>Open, Honest, Fair.</h1>
+  {{else}}
+  <div class='btn'>
+    <a href='/auth/signup' id='signBtn'>Sign up now!</a>
+  </div>
+ {{/if }}
 </div>

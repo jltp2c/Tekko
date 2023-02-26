@@ -1,16 +1,10 @@
 <div class='form-update'>
 
   {{#with insightUpdate}}
-    <form action='/insights/{{_id}}/edit' id='editform' method='POST'>
+    <form action='/profile/{{_id}}/edit' id='editform' method='POST'>
 
       <div>
-        {{!-- <label for='companyEdit'>Company : </label>
-            <input list="companyCreated" required id="companyEdit" name='companyEdit' placeholder='Company' />
-            <datalist id="companyCreated">
-                {{#each allCompanies}}
-                <option value="{{name}}">
-                    {{/each}}
-            </datalist> --}}
+    
         <h4>Update your review for</h4>
         <p id='updateP'>{{company.name}}</p>
 

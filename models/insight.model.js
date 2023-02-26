@@ -24,6 +24,6 @@ const InsightsSchema = new Schema(
   { timestamps: true }
 );
 
-const Insights = model("Insights", InsightsSchema);
+const Insight = model("Insight", InsightsSchema);
 
-module.exports = Insights;
+module.exports = Insight;

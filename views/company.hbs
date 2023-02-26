@@ -1,16 +1,13 @@
 {{! variables companyDetails and oneCompany will be declared in the insights.routes.js file  }}
 <div class="titleCompany">
-  <h1>company insights</h1>
+  <h1>Company insights</h1>
 </div>
 
-<form action='/insights/company' id="optionValue" method='get'>
+<form action='/company' id="optionValue" method='get'>
   <select name='company' id='companyName'>
 
     {{#each allCompanies}}
-
-
       <option  value='{{_id}}'>{{this.name}}</option>
-
     {{/each}}
 
   </select>
@@ -23,10 +20,11 @@
     <h2> {{oneCompany.name}} </h2>
 
     <div class="infoCompany">
-      <p><span>Note generale:</span> <span class='note'>{{globalNote}}</span></p>
+      <p><span>Global rating: </span> <span class='note'>{{globalNote}}</span></p>
       <h2>Reviews</h2>
+      
       {{#each reviews}}
-        <ul>
+        <ul id="eachReview">
           <li><span>Location:</span> {{location}}</li>
           <li><span>Company note:</span> {{company_note}}</li>
           <li><span>Review:</span> {{company_review}}</li>
