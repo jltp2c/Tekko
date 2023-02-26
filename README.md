@@ -25,7 +25,7 @@ https://tekko.onrender.com/
 ## How to use
 1. Clone the repo
 ``` bash
-git clone https://github.com/Lucie-Lanssade/Tekko.git
+git clone https://github.com/jltp2c/Tekko.git
 ```
 
 
