@@ -15,6 +15,7 @@ dark-blue: #16123F */
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     color: #16123F;
+
 }
 
 
@@ -25,7 +26,6 @@ nav {
     background-color: #FFE26A;
     display: flex;
     flex-direction: row;
-
     align-items: center;
     justify-content: space-between;
     gap: 4rem
@@ -70,6 +70,26 @@ nav {
     border-radius: 8px;
     margin-right: 1.7rem;
     transition: all 0.2s ease;
+}
+
+@media only screen and (max-width: 850px) {
+
+    #navLogin,
+    #navSignup,
+    a {
+        font-size: 0.8rem;
+    }
+
+}
+
+@media only screen and (max-width: 690px) {
+
+    #navLogin,
+    #navSignup,
+    #profileBtn,
+    .logs>a {
+        font-size: 0.6rem;
+    }
 }
 
 
@@ -139,6 +159,23 @@ nav {
     margin-right: 1rem;
     cursor: pointer;
     transition: all 0.2s ease;
+}
+
+@media only screen and (max-width: 850px) {
+
+    #profileBtn,
+    #logout {
+        font-size: 0.5rem;
+    }
+
+}
+
+@media only screen and (max-width: 660px) {
+
+    #profileBtn,
+    #logout {
+        font-size: 0.5em;
+    }
 }
 
 

@@ -17,7 +17,6 @@ body {
     box-shadow: 0px 4px 0px 0px rgba(117, 201, 183, 0.75);
     border-radius: 8px;
     margin-right: 1rem;
-
     bottom: 10rem;
     right: 78rem;
     transition: all 0.2s ease;
@@ -34,10 +33,4 @@ body {
     justify-content: center;
     align-items: center;
     margin-top: 30px;
-}
-
-h1 {
-    color: white;
-    text-align: center;
-    margin-top: 3rem;
 }
